@@ -1,0 +1,55 @@
+# Project: CSP
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o 201703_2.o 201703_1.o 201703_3.o 201703_4.o 201703_4_o1.o 201703_4_o2.o UnionFind.o 201703_4_o3.o commonFunc.o
+LINKOBJ  = main.o 201703_2.o 201703_1.o 201703_3.o 201703_4.o 201703_4_o1.o 201703_4_o2.o UnionFind.o 201703_4_o3.o commonFunc.o
+LIBS     = -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -m32
+INCS     = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = csp.exe
+CXXFLAGS = $(CXXINCS) -m32
+CFLAGS   = $(INCS) -m32
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+201703_2.o: 201703_2.cpp
+	$(CPP) -c 201703_2.cpp -o 201703_2.o $(CXXFLAGS)
+
+201703_1.o: 201703_1.cpp
+	$(CPP) -c 201703_1.cpp -o 201703_1.o $(CXXFLAGS)
+
+201703_3.o: 201703_3.cpp
+	$(CPP) -c 201703_3.cpp -o 201703_3.o $(CXXFLAGS)
+
+201703_4.o: 201703_4.cpp
+	$(CPP) -c 201703_4.cpp -o 201703_4.o $(CXXFLAGS)
+
+201703_4_o1.o: 201703_4_o1.cpp
+	$(CPP) -c 201703_4_o1.cpp -o 201703_4_o1.o $(CXXFLAGS)
+
+201703_4_o2.o: 201703_4_o2.cpp
+	$(CPP) -c 201703_4_o2.cpp -o 201703_4_o2.o $(CXXFLAGS)
+
+UnionFind.o: UnionFind.cpp
+	$(CPP) -c UnionFind.cpp -o UnionFind.o $(CXXFLAGS)
+
+201703_4_o3.o: 201703_4_o3.cpp
+	$(CPP) -c 201703_4_o3.cpp -o 201703_4_o3.o $(CXXFLAGS)
+
+commonFunc.o: commonFunc.cpp
+	$(CPP) -c commonFunc.cpp -o commonFunc.o $(CXXFLAGS)

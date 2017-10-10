@@ -1,0 +1,22 @@
+
+
+enum MarkName
+{
+	PG_A = 0,	PG_B,
+	H1_A,	H2_A,	H3_A,	H4_A,	H5_A,	H6_A,
+	H1_B,	H2_B,	H3_B,	H4_B,	H5_B,	H6_B,
+	UL_A, 	UL_B,
+	LI_A,	LI_B,
+	EM_A,	EM_B,
+	MARK_COUNT
+};
+
+const char* MarkText[MARK_COUNT] =
+{
+	"<p>",		"</p>",
+	"<h1>",		"<h2>",		"<h3>",		"<h4>",		"<h5>",		"<h6>",
+	"</h1>",	"</h2>",	"</h3>",	"</h4>",	"</h5>",	"</h6>",
+	"<ul>",		"</ul>",
+	"<li>",		"</li>",
+	"<em>",		"</em>",
+};

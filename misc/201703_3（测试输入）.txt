@@ -1,0 +1,51 @@
+
+----Example #1 Start
+
+aaaaaaa
+
+bbbbbbb
+bbbbbbb
+
+###h
+
+## hh
+
+* l1
+* l2
+
+----Example #1 End
+
+----Example #2 Start
+
+aaaaaaa
+
+bbbbbbb
+bbbbbbb
+
+## hh
+
+* l1
+* l2
+
+_emphasize_
+
+_em[text](www.link.com)phasize_
+
+[_emphasize_](www.link2.com)
+
+[text](www.normallink.com)
+
+# _emphasize_
+
+## _em[text](www.link.com)phasize_
+
+### [_emphasize_](www.link2.com)
+
+#### [text](www.normallink.com)
+
+* _emphasize_
+* _em[text](www.link.com)phasize_
+* [_emphasize_](www.link2.com)
+* [text](www.normallink.com)
+
+----Example #2 End
