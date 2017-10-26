@@ -1,5 +1,6 @@
 #include "csptest.h"
 #include <iostream>
+#include <vector>
 
 void swap(int &a, int &b)
 {
@@ -23,4 +24,11 @@ void printArray_p(int *array, int n)
 		std::cout << array[i] + 1 << " ";
 	if (n > 0)
 		std::cout << array[n - 1] + 1;
+}
+
+void printIntVector(const std::vector<int> &v)
+{
+	for (size_t i = 0; i < v.size(); ++i)
+		std::cout << v[i] << " ";
+	std::cout << std::endl;
 }

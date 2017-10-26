@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=3
 CompilerSettings=0000000100000000000000000
-UnitCount=13
+UnitCount=25
 
 [VersionInfo]
 Major=1
@@ -151,9 +151,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit14]
-FileName=201703_4_o3.cpp
+FileName=201709_1.cpp
 CompileCpp=1
-Folder=source files
+Folder=source files/test functions
 Compile=1
 Link=1
 Priority=1000
@@ -161,7 +161,14 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit15]
-FileName=commonFunc.h
+FileName=201709_2.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
 
 [Unit8]
 FileName=201703_4_o2.cpp
@@ -187,6 +194,106 @@ BuildCmd=
 FileName=commonFunc.h
 CompileCpp=1
 Folder=header files
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit16]
+FileName=201709_3.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit17]
+FileName=SimpleJSONObject.h
+CompileCpp=1
+Folder=header files/data structure
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit18]
+FileName=SimpleJSONObject.cpp
+CompileCpp=1
+Folder=source files/data structure
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit19]
+FileName=201709_4.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit20]
+FileName=201709_4_o1.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit21]
+FileName=201612_1.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit22]
+FileName=201612_2.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit23]
+FileName=201612_2_o1.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit24]
+FileName=201612_3.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit25]
+FileName=UserAndPriv.h
+CompileCpp=1
+Folder=header files/data structure
 Compile=1
 Link=1
 Priority=1000
