@@ -18,5 +18,10 @@ void f_201612_1();// todo 优化
 namespace Q201612_2 { void f_201612_2(); }
 namespace Q201612_2_o1 { void f_201612_2_o1(); }
 void f_201612_3();// todo 优化 
+namespace Q201612_4_other_1 { void f_201612_4_other_1(); }
+namespace Q201612_4 { void f_201612_4(); }
+namespace Q201612_4_o1 { void f_201612_4_o1(); }
+void f_201609_1();
+void f_201609_2();
 
 #endif

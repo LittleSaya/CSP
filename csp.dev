@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=3
 CompilerSettings=0000000100000000000000000
-UnitCount=25
+UnitCount=30
 
 [VersionInfo]
 Major=1
@@ -294,6 +294,56 @@ BuildCmd=
 FileName=UserAndPriv.h
 CompileCpp=1
 Folder=header files/data structure
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit26]
+FileName=201612_4_other_1.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit27]
+FileName=201612_4.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit28]
+FileName=201612_4_o1.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit29]
+FileName=201609_1.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit30]
+FileName=201609_2.cpp
+CompileCpp=1
+Folder=source files/test functions
 Compile=1
 Link=1
 Priority=1000

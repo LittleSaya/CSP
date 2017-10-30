@@ -2,7 +2,7 @@
 
 int main(int argc, char** argv)
 {
-	f_201612_3();
+	f_201609_2();
 	return 0;
 }
 
