@@ -23,5 +23,9 @@ namespace Q201612_4 { void f_201612_4(); }
 namespace Q201612_4_o1 { void f_201612_4_o1(); }
 void f_201609_1();
 void f_201609_2();
+void f_201609_3(); 
+namespace Q201609_4 { void f_201609_4(); }
+namespace Q201609_4_o1 { void f_201609_4_o1(); }// 未使用最小堆优化
+namespace Q201609_4_o2 { void f_201609_4_o2(); }// 使用了最小堆优化 
 
 #endif
