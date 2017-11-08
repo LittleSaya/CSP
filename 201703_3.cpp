@@ -3,6 +3,9 @@
 #include <iostream>
 #include <vector>
 
+namespace Q201703_3
+{
+
 typedef std::vector<std::string>::size_type VSize;
 typedef std::string::size_type SSize;
 typedef std::vector<std::string> TextType;
@@ -243,4 +246,6 @@ BlockFormat getBlockType(const TextType &text, const VSize blockPos, const VSize
 		default:
 			return PARA_BLOCK;
 	}
+}
+
 }

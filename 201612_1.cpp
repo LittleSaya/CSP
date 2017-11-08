@@ -3,6 +3,9 @@
 #include <iostream>
 #include <vector>
 
+namespace Q201612_1
+{
+
 void quickSort(std::vector<int> &v, int low, int high);
 
 void f_201612_1()
@@ -110,4 +113,6 @@ void quickSort(std::vector<int> &v, int low, int high)
 	}
 	quickSort(v, low, left - 1);
 	quickSort(v, left + 1, high);
+}
+
 }

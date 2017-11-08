@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o 201703_2.o 201703_1.o 201703_3.o 201703_4.o 201703_4_o1.o 201703_4_o2.o UnionFind.o 201703_4_o3.o commonFunc.o 201709_1.o 201709_2.o 201709_3.o SimpleJSONObject.o 201709_4.o 201709_4_o1.o 201612_1.o 201612_2.o 201612_2_o1.o 201612_3.o 201612_4_other_1.o 201612_4.o 201612_4_o1.o 201609_1.o 201609_2.o 201609_3.o 201609_4.o 201609_4_o1.o 201609_4_o2.o
-LINKOBJ  = main.o 201703_2.o 201703_1.o 201703_3.o 201703_4.o 201703_4_o1.o 201703_4_o2.o UnionFind.o 201703_4_o3.o commonFunc.o 201709_1.o 201709_2.o 201709_3.o SimpleJSONObject.o 201709_4.o 201709_4_o1.o 201612_1.o 201612_2.o 201612_2_o1.o 201612_3.o 201612_4_other_1.o 201612_4.o 201612_4_o1.o 201609_1.o 201609_2.o 201609_3.o 201609_4.o 201609_4_o1.o 201609_4_o2.o
+OBJ      = main.o 201703_2.o 201703_1.o 201703_3.o 201703_4.o 201703_4_o1.o 201703_4_o2.o UnionFind.o 201703_4_o3.o commonFunc.o 201709_1.o 201709_2.o 201709_3.o SimpleJSONObject.o 201709_4.o 201709_4_o1.o 201612_1.o 201612_2.o 201612_2_o1.o 201612_3.o 201612_4_other_1.o 201612_4.o 201612_4_o1.o 201609_1.o 201609_2.o 201609_3.o 201609_4.o 201609_4_o1.o 201609_4_o2.o 201709_5.o
+LINKOBJ  = main.o 201703_2.o 201703_1.o 201703_3.o 201703_4.o 201703_4_o1.o 201703_4_o2.o UnionFind.o 201703_4_o3.o commonFunc.o 201709_1.o 201709_2.o 201709_3.o SimpleJSONObject.o 201709_4.o 201709_4_o1.o 201612_1.o 201612_2.o 201612_2_o1.o 201612_3.o 201612_4_other_1.o 201612_4.o 201612_4_o1.o 201609_1.o 201609_2.o 201609_3.o 201609_4.o 201609_4_o1.o 201609_4_o2.o 201709_5.o
 LIBS     = -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -m32
 INCS     = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -110,3 +110,6 @@ SimpleJSONObject.o: SimpleJSONObject.cpp
 
 201609_4_o2.o: 201609_4_o2.cpp
 	$(CPP) -c 201609_4_o2.cpp -o 201609_4_o2.o $(CXXFLAGS)
+
+201709_5.o: 201709_5.cpp
+	$(CPP) -c 201709_5.cpp -o 201709_5.o $(CXXFLAGS)

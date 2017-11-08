@@ -4,6 +4,9 @@
 #include <cstdlib>
 #include <cstdio>
 
+namespace Q201612_3
+{
+
 using namespace UnP;
 
 int privN = 0, roleN = 0, userN = 0, queryN = 0;
@@ -169,4 +172,6 @@ std::vector<Priv> getUserPriv(const User &u)
 		}
 	}
 	return privs;
+}
+
 }

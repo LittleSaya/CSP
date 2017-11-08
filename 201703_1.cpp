@@ -1,6 +1,9 @@
 #include "csptest.h"
 #include <iostream>
 
+namespace Q201703_1
+{
+
 void f_201703_1()
 {
 	using std::cin;
@@ -25,4 +28,6 @@ void f_201703_1()
 		++complete;
 	cout << complete;
 	delete [] cakes;
+}
+
 }

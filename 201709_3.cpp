@@ -4,6 +4,9 @@
 #include <string>
 #include <vector>
 
+namespace Q201709_3
+{
+
 // There are BUGs
 // please comment out evey cout statement in this page
 
@@ -47,4 +50,6 @@ void f_201709_3()
 		else
 		{ std::cout << "NOTEXIST???" << std::endl; }
 	}
+}
+
 }

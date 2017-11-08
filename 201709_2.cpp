@@ -4,6 +4,9 @@
 #include <vector>
 #include <algorithm>
 
+namespace Q201709_2
+{
+
 // THIS IS (NOT) A WORNG ANSWER
 // this is not a wrong answer ;_;
 
@@ -171,4 +174,6 @@ void sortIndice_in(int *indice, int low, int high, const std::vector<TimeStamp> 
 	indice[first] = key;
 	sortIndice_in(indice, low, first - 1, v);
 	sortIndice_in(indice, first + 1, high, v);
+}
+
 }

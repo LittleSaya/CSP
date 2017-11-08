@@ -3,6 +3,9 @@
 #include <climits>
 #include <cmath>
 
+namespace Q201609_1
+{
+
 const int N = 1000;
 int p[N];
 int n;
@@ -21,4 +24,6 @@ void f_201609_1()
 		{	max = t; }
 	}
 	std::cout << max;
+}
+
 }

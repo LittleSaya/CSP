@@ -4,6 +4,9 @@
 #include <iostream>
 #include <string>
 
+namespace Q201609_3
+{
+
 enum ActionType
 {
 	S,
@@ -242,5 +245,4 @@ void output()
 	std::cout << std::endl;
 }
 
-
-
+}

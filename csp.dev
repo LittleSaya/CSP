@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=3
 CompilerSettings=0000000100000000000000000
-UnitCount=30
+UnitCount=35
 
 [VersionInfo]
 Major=1
@@ -342,6 +342,56 @@ BuildCmd=
 
 [Unit30]
 FileName=201609_2.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit31]
+FileName=201609_3.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit32]
+FileName=201609_4.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit33]
+FileName=201609_4_o1.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit34]
+FileName=201609_4_o2.cpp
+CompileCpp=1
+Folder=source files/test functions
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit35]
+FileName=201709_5.cpp
 CompileCpp=1
 Folder=source files/test functions
 Compile=1

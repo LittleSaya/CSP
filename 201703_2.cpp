@@ -2,6 +2,9 @@
 #include "commonFunc.h"
 #include <iostream>
 
+namespace Q201703_2
+{
+
 void f_201703_2()
 {
 	using std::cin;
@@ -36,4 +39,6 @@ void f_201703_2()
 	}
 	printArray_p(pos2num, n);
 	delete [] num2pos, pos2num, adjust;
+}
+
 }

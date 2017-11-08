@@ -1,6 +1,9 @@
 #include "csptest.h"
 #include <iostream>
 
+namespace Q201709_1
+{
+
 const int SINGLE = 10;
 
 void f_201709_1()
@@ -21,4 +24,6 @@ void f_201709_1()
 	res += N / SINGLE;
 	
 	std::cout << res;
+}
+
 }

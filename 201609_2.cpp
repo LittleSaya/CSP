@@ -1,6 +1,9 @@
 #include "csptest.h"
 #include <iostream>
 
+namespace Q201609_2
+{
+
 const int X = 5;
 const int Y = 20;
 
@@ -79,4 +82,6 @@ int reserve(int y)
 int getNum(int x, int y)
 {
 	return y * X + x + 1;
+}
+
 }
